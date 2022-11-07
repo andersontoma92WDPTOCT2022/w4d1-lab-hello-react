@@ -1,6 +1,6 @@
 function CardInfo(props) {
   //
-  console.log(props, 'props');
+  console.log(props.end, 'props.end');
   return (
     <div>
       {/**/}
