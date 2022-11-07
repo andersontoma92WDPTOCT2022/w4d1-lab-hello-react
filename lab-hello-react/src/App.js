@@ -44,12 +44,12 @@ function App() {
         <nav>
           <NavigationBar />
         </nav>
-        <div>
+        <div className="hero">
           <SayHello />
           <BtnAwesome />
         </div>
       </div>
-      <div>
+      <div className="cards">
         {imagens2.map((cartao) => (
           <CardInfo
             end={cartao.end}

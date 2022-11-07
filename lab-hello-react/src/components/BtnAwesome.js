@@ -1,7 +1,9 @@
 function BtnAwesome(params) {
   return (
     <div>
-      <button type="button">Awesome!</button>
+      <button id="button" type="button">
+        Awesome!
+      </button>
     </div>
   );
 }

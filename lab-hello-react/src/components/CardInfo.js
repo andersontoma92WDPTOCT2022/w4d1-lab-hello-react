@@ -4,10 +4,10 @@ function CardInfo(props) {
   return (
     <div>
       {/**/}
-      <img src={props.end} alt={props.alt} />
+      <img className="imagens" src={props.end} alt={props.alt} />
       <div>
-        <h3>{props.titulo}</h3>
-        <p>{props.paragrafo}</p>
+        <h5>{props.titulo}</h5>
+        <p className="pCard">{props.paragrafo}</p>
       </div>
     </div>
   );
